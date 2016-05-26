@@ -1,0 +1,19 @@
+name       : nuvola-app-amazon-cloud-player
+version    : 5.1
+release    : 1
+source     :
+    - https://github.com/tiliado/nuvola-app-amazon-cloud-player/archive/5.1.tar.gz : 7f5fca253e7489ca89521336b9dbd1c5725f54d01b8d276974b51e68ecbfb009
+license    : BSD-2-Clause
+component  : desktop.multimedia
+summary    : Amazon Cloud Player Integration for Nuvola Player 3.
+description: |
+    Integration of Amazon Cloud Player into your linux desktop via Nuvola Player.
+builddeps  :
+    - scour
+    - librsvg-devel
+rundeps    :
+    - nuvolaplayer
+build      : |
+    %make 
+install    : |
+    %make_install DEST="$installdir/usr/share/nuvolaplayer3/web_apps"

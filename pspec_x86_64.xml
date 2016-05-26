@@ -1,0 +1,37 @@
+<PISI>
+    <Source>
+        <Name>nuvola-app-amazon-cloud-player</Name>
+        <Packager>
+            <Name>Stefan Ric</Name>
+            <Email>stfric369@gmail.com</Email>
+        </Packager>
+        <License>BSD-2-Clause</License>
+        <PartOf>desktop.multimedia</PartOf>
+        <Summary xml:lang="en">Amazon Cloud Player Integration for Nuvola Player 3.</Summary>
+        <Description xml:lang="en">Integration of Amazon Cloud Player into your linux desktop via Nuvola Player.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>nuvola-app-amazon-cloud-player</Name>
+        <Summary xml:lang="en">Amazon Cloud Player Integration for Nuvola Player 3.</Summary>
+        <Description xml:lang="en">Integration of Amazon Cloud Player into your linux desktop via Nuvola Player.
+</Description>
+        <PartOf>desktop.multimedia</PartOf>
+        <Files>
+            <Path fileType="data">/usr/share/nuvolaplayer3/web_apps/amazon_cloud_player/LICENSE</Path>
+            <Path fileType="data">/usr/share/nuvolaplayer3/web_apps/amazon_cloud_player/icon.png</Path>
+            <Path fileType="data">/usr/share/nuvolaplayer3/web_apps/amazon_cloud_player/integrate.js</Path>
+            <Path fileType="data">/usr/share/nuvolaplayer3/web_apps/amazon_cloud_player/metadata.json</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2016-05-26</Date>
+            <Version>5.1</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Stefan Ric</Name>
+            <Email>stfric369@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>
